@@ -1,16 +1,29 @@
-# flutter_assigment
+# Sample letter "U"
 
-A new Flutter project.
+## Preview
 
-## Getting Started
+![Preview](u.png)
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+If you're new to Flutter the first thing you'll need is to follow the [setup instructions](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Once Flutter is setup, you can use the default `stable` channel, or switch to the latest `dev` version to get the most current fixes for desktop/web:
+* Run `flutter channel dev`
+* Run `flutter upgrade`
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you've never run a desktop build before, you will need to enable it with a one-time command for your current platform:
+* `flutter config --enable-macos-desktop`
+* `flutter config --enable-windows-desktop`
+* `flutter config --enable-linux-desktop`
+
+Once you're on `dev` and desktop is enabled, you're ready to run the app:
+* `flutter run -d windows`
+* `flutter run -d macos`
+* `flutter run -d linux`
+* `flutter run -d android`
+* `flutter run -d ios`
+* `flutter run -d web`
+
+If you re-start your IDE, you should also see a new launch option for your current desktop platform.
+
